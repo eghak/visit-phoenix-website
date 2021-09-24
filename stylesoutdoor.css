@@ -1,0 +1,46 @@
+body {
+  background: rgb(240, 212, 197);
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 1000px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  width: 1000px;
+  margin-top: 20pt;
+}
+
+nav {
+  border-bottom: 2px solid orange;
+}
+
+ol {
+  padding-left: 0;
+}
+
+.crumb {
+  margin-right: 2em;
+  display: inline;
+}
+
+a {
+  color: rgb(145, 95, 4);
+}
+
+a:visited {
+  color: rgb(230, 115, 87);
+}
+
+h1 {
+    color: rgb(145, 95, 4);
+}
+
+p {
+    color: rgb(145, 95, 4);
+}
+
+.list {
+  font-size: 15pt;
+}
