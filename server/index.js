@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "../home.html"));
 });
 
-app.get("/plan", (req, res) => {
+app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "../plan.html"));
   });
 
