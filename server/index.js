@@ -4,12 +4,8 @@ const path = require("path");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "../home.html"));
+  res.sendFile(path.join(__dirname, "../outdoor.html"));
 });
-
-app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "../plan.html"));
-  });
 
 const port = process.env.PORT || 4005;
 
