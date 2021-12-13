@@ -7,6 +7,10 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "../home.html"));
 });
 
+app.get("/homecss", (req, res) => {
+    res.sendFile(path.join(__dirname, "../styleshome.css"));
+  });
+
 const port = process.env.PORT || 4005;
 
 app.listen(port, () => {
