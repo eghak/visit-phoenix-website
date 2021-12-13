@@ -12,7 +12,7 @@ app.get("/homecss", (req, res) => {
   });
 
   app.get("/outdoor", (req, res) => {
-    res.sendFile(path.join(__dirname, "../home.html"));
+    res.sendFile(path.join(__dirname, "../outdoor.html"));
   });
   
   app.get("/outdoorcss", (req, res) => {
