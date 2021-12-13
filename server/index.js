@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/homecss", (req, res) => {
-  res.sendFile(path.join(__dirname, "../styleshome.css"));
+  res.sendFile(path.join(__dirname, "../public/styleshome.css"));
 });
 
 app.get("/outdoor", (req, res) => {
@@ -16,7 +16,7 @@ app.get("/outdoor", (req, res) => {
 });
 
 app.get("/outdoorcss", (req, res) => {
-  res.sendFile(path.join(__dirname, "../stylesoutdoor.css"));
+  res.sendFile(path.join(__dirname, "../public/stylesoutdoor.css"));
 });
 
 app.get("/family", (req, res) => {
@@ -24,7 +24,7 @@ app.get("/family", (req, res) => {
 });
 
 app.get("/familycss", (req, res) => {
-  res.sendFile(path.join(__dirname, "../stylesfamily.css"));
+  res.sendFile(path.join(__dirname, "../public/stylesfamily.css"));
 });
 
 app.get("/shop", (req, res) => {
@@ -32,7 +32,7 @@ app.get("/shop", (req, res) => {
 });
 
 app.get("/shopcss", (req, res) => {
-  res.sendFile(path.join(__dirname, "../stylesshop.css"));
+  res.sendFile(path.join(__dirname, "../public/stylesshop.css"));
 });
 
 app.get("/food", (req, res) => {
@@ -40,7 +40,7 @@ app.get("/food", (req, res) => {
 });
 
 app.get("/foodcss", (req, res) => {
-  res.sendFile(path.join(__dirname, "../stylesfood.css"));
+  res.sendFile(path.join(__dirname, "../public/stylesfood.css"));
 });
 
 app.get("/plan", (req, res) => {
@@ -48,7 +48,7 @@ app.get("/plan", (req, res) => {
 });
 
 app.get("/plancss", (req, res) => {
-  res.sendFile(path.join(__dirname, "../stylesplan.css"));
+  res.sendFile(path.join(__dirname, "../public/stylesplan.css"));
 });
 
 const port = process.env.PORT || 4005;
