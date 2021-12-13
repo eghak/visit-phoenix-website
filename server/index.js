@@ -51,6 +51,10 @@ app.get("/plancss", (req, res) => {
   res.sendFile(path.join(__dirname, "../public/stylesplan.css"));
 });
 
+app.get("/planjs", (req, res) => {
+  res.sendFile(path.join(__dirname, "../public/index.js"));
+});
+
 const port = process.env.PORT || 4005;
 
 app.listen(port, () => {
